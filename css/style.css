@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: lightblue;
+}
+
+.h-col {
+    display: flex;
+    align-items: center;
+}
+  
+.item{
+    padding: 5px 15px;
+    font-size: 12px;
+}
+
+.button{
+    background: blue;
+    color: white;
+}
+
+.row{
+    background-color: lightblue;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+}
+.container{
+    background-color: aqua;
+    width: 100%;
+    padding: 20px;
+}
+
+.jumbo{
+    width: 100%;
+}
