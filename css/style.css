@@ -40,6 +40,7 @@ header{
     width: 100%;
     padding: 20px;
     position: relative;
+    margin-bottom: 60px;
 }
 
 .jumbo{
@@ -55,9 +56,6 @@ p{
     margin-bottom: 20px;
 }
 
-img{
-    transform: translateY(20%);
-}
 .col-33{
     width: 70%;
 }
@@ -71,4 +69,24 @@ img{
     position: absolute;
     bottom: 0;
     margin: 10px;
+}
+
+
+h2{
+    text-align: center;
+}
+
+.card, .l-icon{
+    border: 1px solid black;
+}
+
+.l-row{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.l-col{
+    padding: 30px;
 }
