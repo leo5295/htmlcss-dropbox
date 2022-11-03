@@ -49,11 +49,12 @@ header{
 
 h1{
     font-size: 70px;
-    margin-bottom: 20px;
+    margin: 30px 0px;
 }
 
 p{
     margin-bottom: 20px;
+    line-height: 25px;
 }
 
 .col-33{
@@ -68,16 +69,14 @@ p{
     font-size: 50px;
     position: absolute;
     bottom: 0;
-    margin: 10px;
+    margin: 20px 0px;
 }
 
 
-h2{
-    text-align: center;
-}
-
-.card, .l-icon{
+.card{
     border: 1px solid black;
+    line-height: 50px;
+    padding: 20px 30px;
 }
 
 .l-row{
@@ -86,7 +85,19 @@ h2{
 
 }
 
-
 .l-col{
     padding: 30px;
+}
+
+hr{
+    width: 30px;
+}
+
+.l-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.jumbo{
+    transform: translateY(100px);
 }
