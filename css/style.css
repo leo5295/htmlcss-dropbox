@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Fredoka', sans-serif;
+    font-family:Arial, Helvetica, sans-serif
 }
 
 header{
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    background-color: lightblue;
+    background-color: white;
 }
 
 .h-col {
@@ -19,26 +19,56 @@ header{
   
 .item{
     padding: 5px 15px;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .button{
     background: blue;
     color: white;
+    padding: 10px;
+    border: none;
 }
 
 .row{
-    background-color: lightblue;
+    background-color: cornflowerblue;
     width: 70%;
     margin: 0 auto;
     display: flex;
 }
 .container{
-    background-color: aqua;
+    background-color: cornflowerblue;
     width: 100%;
     padding: 20px;
+    position: relative;
 }
 
 .jumbo{
     width: 100%;
+}
+
+h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+img{
+    transform: translateY(20%);
+}
+.col-33{
+    width: 70%;
+}
+
+.space{
+    margin: 30px 0;
+}
+
+.fa-arrow-down{
+    font-size: 50px;
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
 }
