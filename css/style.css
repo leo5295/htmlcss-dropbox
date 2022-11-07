@@ -45,6 +45,12 @@ header{
 
 .jumbo{
     width: 100%;
+    position: absolute;
+}
+
+.col{
+    position: relative;
+    width: 100%;
 }
 
 h1{
@@ -67,9 +73,8 @@ p{
 
 .fa-arrow-down{
     font-size: 50px;
-    position: absolute;
     bottom: 0;
-    margin: 20px 0px;
+    margin-top: 40px;
 }
 
 
@@ -81,12 +86,8 @@ p{
 
 .l-row{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 
-}
-
-.l-col{
-    padding: 30px;
 }
 
 hr{
@@ -94,10 +95,130 @@ hr{
 }
 
 .l-container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.l-col{
+    margin-bottom: 20px;
+}
+.row53{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.cont{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.x{
+    display: flex;
     width: 80%;
     margin: 0 auto;
 }
 
-.jumbo{
-    transform: translateY(100px);
+.box > img{
+    width: 100%;
+}
+
+.box{
+    padding: 20px 40px;
+}
+
+.main-row{
+    display: flex;
+    justify-content: center;
+}
+
+.main-col-33{
+    width: 30%;
+}
+
+.square-section, .square{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    width: calc(100%/3);
+    height: calc(100vw/3);
+}
+
+.sub-square{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-square>img{
+    position: absolute;
+    filter: invert(1);
+}
+
+.bg-red{
+    background-color: red;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-violet{
+    background-color: violet;
+}
+
+.ccontainer{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.ccol{
+    width: calc(100%/2);
+}
+
+.prova{
+    width: 100%;
+}
+
+.rrow{
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.button2{
+    background: white;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.row3, .col3{
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row3{
+    height: 200px;
+}
+
+.col3{
+    margin: 50px;
+}
+
+.title-section{
+    color: darkred;
+}
+
+.fa-angle-down{
+    margin-left: 40px;
 }
